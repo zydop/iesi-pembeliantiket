@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pembelian Tiket</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pembelian Tiket</h1>
+        <div class="ticket-form">
+            <form id="ticketForm">
+                <label for="eventName">Nama Event:</label>
+                <input type="text" id="eventName" name="eventName" readonly>
+                
+                <label for="jumlahTiket">Jumlah Tiket:</label>
+                <input type="number" id="jumlahTiket" name="jumlahTiket" min="1" required>
+                
+                <label for="namaPemilik">Nama Pemilik Tiket:</label>
+                <input type="text" id="namaPemilik" name="namaPemilik" required>
+                
+                <label for="NIK">NIK:</label>
+                <input type="text" id="NIK" name="NIK" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Beli Tiket</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pencarian Event</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cari Event</h1>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Nama Event atau Lokasi">
+            <select id="genreDropdown">
+                <option value="">Semua Genre</option>
+                <option value="Musik">Musik</option>
+                <option value="Seni">Seni</option>
+                <option value="Olahraga">Olahraga</option>
+                <option value="Lainnya">Lainnya</option>
+            </select>
+            <button onclick="searchEvent()">Cari</button>
+        </div>
+        <div id="searchResults" class="results">
+            <!-- Hasil pencarian akan ditampilkan di sini -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
